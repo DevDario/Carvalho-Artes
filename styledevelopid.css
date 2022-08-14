@@ -1,0 +1,56 @@
+:root{
+
+    --main-color:#0084FF;
+    --second-color:#033764;
+    --third-color:#FFF;
+
+    scroll-behavior: smooth;
+
+}
+
+.title-box .title{
+    text-align:center;
+}
+
+.main-content .v-row{
+    display:block;
+    justify-content: center;
+}
+.v-row .bg-img{
+    display:flex;
+    justify-content: center;
+}
+
+
+.bg-img img{
+    width:40%;
+}
+
+.v-row .sm-btn{
+    display:flex;
+    justify-content: center;
+}
+
+
+.sm-btn button{
+    background-color: var(--second-color);
+    color:var(--third-color);
+    width:320px;
+    height:50px;
+    
+}
+
+.sm-btn ul li{
+   margin-bottom: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .bg-img img{
+        width: 100%;
+    }
+
+    
+.sm-btn ul li{
+    margin-bottom: 1px;
+ }
+}

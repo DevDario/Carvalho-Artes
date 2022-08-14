@@ -1,0 +1,64 @@
+:root{
+
+    --main-color:#0084FF;
+    --second-color:#033764;
+    --third-color:#FFF;
+
+    scroll-behavior: smooth;
+
+}
+
+.box-content{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.cards .square{
+    width:300px;
+    height:150px;
+}
+
+.cards .square img{
+    width:20px;
+    height: 20px;
+    bottom:-5rem;
+    left: 15rem;
+}
+
+.cards{
+    display:block;
+    top:6rem;
+}
+
+.cards div{
+    margin-bottom: 2rem;
+}
+
+.aside-square{
+    top: 6rem;
+}
+
+.aside-square .square{
+    width: 420px;
+    height:520px;
+}
+
+.aside-square .square img{
+    width:250px;
+    height:250px;
+}
+
+@media screen and (max-width:768px){
+    .box-content{
+        display:block;
+        margin: 0 auto;
+    }
+
+    .aside-square .square img,.aside-square .square{
+        display: none;
+    }
+
+    footer{
+        margin-top: 12rem;
+    }
+}

@@ -1,0 +1,53 @@
+:root{
+
+    --main-color:#0084FF;
+    --second-color:#033764;
+    --third-color:#FFF;
+
+    scroll-behavior: smooth;
+
+}
+.main-title .title{
+    text-align: center;
+    font-weight:200;
+}
+
+.squarelist1{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+}
+
+.squarelist2{
+    justify-content: left;
+    margin-left:6.8rem;
+}
+
+@media screen and (max-width:768px) {
+
+    .title{
+        font-size:1.70rem;
+    }
+    .squarelist1,.squarelist2{
+        display: block;
+        margin: 0 auto;
+    }   
+
+    footer .block-title .title{
+        font-family:'tommy';
+        margin-bottom: 1rem;
+    }
+    
+    .block-title .subtitle{
+        letter-spacing:5px;
+        font-weight:100;
+        margin-top: 80px;
+        font-size: 16px;
+    }
+    
+    .block-title .social-icons{
+        top: 8rem;
+        display:flex;
+        justify-content: center;
+    }
+}
