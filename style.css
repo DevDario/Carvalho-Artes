@@ -159,7 +159,7 @@ header .box{
     border-radius: 20px;
     background: #ffffff;
     background-blend-mode: normal;
-    box-shadow: 0px 2px 10px rgba(100,100,100,0.42);
+    box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
 }
 
 .squarelist1,.squarelist2{
